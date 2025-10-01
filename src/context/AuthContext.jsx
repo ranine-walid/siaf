@@ -6,7 +6,7 @@ const AuthContext = createContext();
 // 2️⃣ Fournisseur du contexte
 export function AuthProvider({ children }) {
   // Pour le moment on simule la connexion (true par défaut)
-  const [isconnected, setIsConnected] = useState(false);
+  const [isconnected, setIsConnected] = useState(true);
 
   // Fonctions de login/logout simulées
   const login = () => setIsConnected(true);
