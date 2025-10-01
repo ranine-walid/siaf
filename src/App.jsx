@@ -1,13 +1,14 @@
 import React from 'react';     // 👈 Ajoute cette ligne
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./pages/Login.jsx";
-import Inscription from "./pages/Inscription.jsx";
-import DashboardClient from "./pages/DashboardClient.jsx";   
-import Loyout from "./components/SideContenaire.jsx";  
-import Track from "./pages/track.jsx";  
-import Telechargement from "./pages/telechargement.jsx";  
 import { AuthProvider } from './context/AuthContext.jsx';
-import Acceuil from "./Pages/Home.jsx"
+import Acceuil from "./Pages/Home.jsx";
+import Login from "./Pages/Login.jsx";
+import Inscription from "./Pages/Inscription.jsx";
+import DashboardClient from "./Pages/DashboardClient.jsx";
+import Loyout from "./components/SideContenaire.jsx";
+import Telechargement from "./Pages/telechargement.jsx";
+import Track from "./Pages/track.jsx";
+
 
 function App() {
   return (
