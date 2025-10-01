@@ -1,6 +1,6 @@
 import React from 'react';     // 👈 Ajoute cette ligne
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Acceuil from "./pages/Acceuil.jsx";
+import Acceuil from "./pages/Home.jsx";
 import Login from "./pages/Login.jsx";
 import Inscription from "./pages/Inscription.jsx";
 import DashboardClient from "./pages/DashboardClient.jsx";   
